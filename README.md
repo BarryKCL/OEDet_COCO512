@@ -23,6 +23,7 @@ Single-Shot Detector with Objectness Enhancement
 ### Step-by-step installation
 
 # Optional packages
+
 # If you want visualize loss curve. Default is enabled. Disable by using --use_tensorboard 0 when training.
 pip install tensorboardX
 
@@ -103,7 +104,6 @@ python train.py --config-file configs/vgg_ssd512_coco_trainval35k.yaml
 # for example, evaluate OEDet512:
 python test.py --config-file configs/vgg_ssd512_coco_trainval35k.yaml
 ```
-
 ### Paper:
 
 |         | VOC2007 test | coco test-dev2017 |
@@ -112,13 +112,9 @@ python test.py --config-file configs/vgg_ssd512_coco_trainval35k.yaml
 | OEDet512 |     81.70     |      32.8         |
 
 References
-
-    Original Implementation (CAFFE)
-    A list of other great SSD ports that were sources of inspiration:
-        amdegroot/ssd.pytorch
-        lzx1413/PytorchSSD
-        lufficc/SSD
-        ansleliu/LightNetPlusPlus
+    A list of SSD and Semantic Segmentation ports that were sources of inspiration:
+        lufficc/SSD(https://github.com/lufficc/SSD)
+        ansleliu/LightNetPlusPlus(https://github.com/ansleliu/LightNetPlusPlus)
 
 
 
