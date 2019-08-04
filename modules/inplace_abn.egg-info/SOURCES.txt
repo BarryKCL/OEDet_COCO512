@@ -1,0 +1,8 @@
+/home/wcl/SSD-New/OEDet_COCO512/modules/inplace_abn/src/inplace_abn.cpp
+/home/wcl/SSD-New/OEDet_COCO512/modules/inplace_abn/src/inplace_abn_cpu.cpp
+/home/wcl/SSD-New/OEDet_COCO512/modules/inplace_abn/src/inplace_abn_cuda.cu
+/home/wcl/SSD-New/OEDet_COCO512/modules/inplace_abn/src/inplace_abn_cuda_half.cu
+inplace_abn.egg-info/PKG-INFO
+inplace_abn.egg-info/SOURCES.txt
+inplace_abn.egg-info/dependency_links.txt
+inplace_abn.egg-info/top_level.txt
