@@ -96,14 +96,14 @@ COCO_ROOT
 Where `COCO_ROOT` default is `datasets` folder in current project, you can create symlinks to `datasets` or `export COCO_ROOT="/path/to/coco_root"`.
 
 ### Single GPU training
-
 ```bash
 # for example, train OEDet512:
 python train.py --config-file configs/vgg_ssd512_coco_trainval35k.yaml
 ```
 
 ## Evaluate
-[pre-trained model](https://pan.baidu.com/s/1J5W8kABCfJ-jRnOsRw1gEQ)
+[OEDet512_pre-trained model](https://pan.baidu.com/s/1J5W8kABCfJ-jRnOsRw1gEQ)
+
 Extraction code:iif1
 
 ### Single GPU evaluating
