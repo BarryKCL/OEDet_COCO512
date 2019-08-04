@@ -20,7 +20,6 @@ Single-Shot Detector with Objectness Enhancement
 1. Python3
 1. PyTorch 1.0 or higher
 1. yacs
-1. [Vizer](https://github.com/lufficc/Vizer)
 1. GCC >= 4.9
 1. OpenCV
 
@@ -101,6 +100,7 @@ python train.py --config-file configs/vgg_ssd512_coco_trainval35k.yaml
 ```
 
 ## Evaluate
+pre-trained model
 
 ### Single GPU evaluating
 
@@ -116,6 +116,20 @@ python test.py --config-file configs/vgg_ssd512_coco_trainval35k.yaml
 | :-----: | :----------: |   :----------:    |
 | OEDet300 |     79.74     |      29.4         |
 | OEDet512 |     81.70     |      32.8         |
+
+# overall performance on coco test-dev2017:
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.328
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.542
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.345
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.158
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.347
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.464
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.281
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.431
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.456
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.241
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.483
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.623
 
 # References:
 A list of SSD and Semantic Segmentation ports that were sources of inspiration:
