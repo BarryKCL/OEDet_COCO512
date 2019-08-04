@@ -100,7 +100,7 @@ python train.py --config-file configs/vgg_ssd512_coco_trainval35k.yaml
 ### Single GPU evaluating
 
 ```bash
-# for example, evaluate SSD300:
+# for example, evaluate OEDet512:
 python test.py --config-file configs/vgg_ssd512_coco_trainval35k.yaml
 ```
 
