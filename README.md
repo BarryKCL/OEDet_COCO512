@@ -1,7 +1,7 @@
 # OEDet_COCO512
 Single-Shot Detector with Objectness Enhancement
 
-(https://github.com/BarryKCL/OEDet_COCO512/blob/master/figures/OEDet_A.png)
+[OEDet](https://github.com/BarryKCL/OEDet_COCO512/blob/master/figures/OEDet_A.png)
 
 ## Highlights
 
