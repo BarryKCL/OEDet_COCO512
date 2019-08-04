@@ -111,10 +111,10 @@ python test.py --config-file configs/vgg_ssd512_coco_trainval35k.yaml
 | OEDet300 |     79.74     |      29.4         |
 | OEDet512 |     81.70     |      32.8         |
 
-References
-    A list of SSD and Semantic Segmentation ports that were sources of inspiration:
-        lufficc/SSD (https://github.com/lufficc/SSD)       
-        ansleliu/LightNetPlusPlus (https://github.com/ansleliu/LightNetPlusPlus)
+# References:
+A list of SSD and Semantic Segmentation ports that were sources of inspiration:
+[lufficc/SSD](https://github.com/lufficc/SSD)       
+[ansleliu/LightNetPlusPlus](https://github.com/ansleliu/LightNetPlusPlus)
 
 
 
