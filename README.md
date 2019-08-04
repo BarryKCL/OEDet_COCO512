@@ -30,13 +30,12 @@ Single-Shot Detector with Objectness Enhancement
 pip install tensorboardX
 
 ### If you train coco dataset, must install cocoapi.
+```bash
 cd ~/github
-
 git clone https://github.com/cocodataset/cocoapi.git
-
 cd cocoapi/PythonAPI
-
 python setup.py build_ext install
+```
 
 ### Build
 If your torchvision >= 0.3.0, nms build is not needed! We also provide a python-like nms, but is very slower than build-version.
