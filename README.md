@@ -32,8 +32,11 @@ pip install tensorboardX
 
 # If you train coco dataset, must install cocoapi.
 cd ~/github
+
 git clone https://github.com/cocodataset/cocoapi.git
+
 cd cocoapi/PythonAPI
+
 python setup.py build_ext install
 
 ### Build
@@ -100,7 +103,8 @@ python train.py --config-file configs/vgg_ssd512_coco_trainval35k.yaml
 ```
 
 ## Evaluate
-pre-trained model
+[pre-trained model](https://pan.baidu.com/s/1J5W8kABCfJ-jRnOsRw1gEQ)
+Extraction code:iif1
 
 ### Single GPU evaluating
 
