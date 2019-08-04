@@ -113,9 +113,8 @@ python test.py --config-file configs/vgg_ssd512_coco_trainval35k.yaml
 
 ### References
     A list of SSD and Semantic Segmentation ports that were sources of inspiration:
-        lufficc/SSD(https://github.com/lufficc/SSD)
-        
-        ansleliu/LightNetPlusPlus(https://github.com/ansleliu/LightNetPlusPlus)
+        lufficc/SSD (https://github.com/lufficc/SSD)       
+        ansleliu/LightNetPlusPlus (https://github.com/ansleliu/LightNetPlusPlus)
 
 
 
