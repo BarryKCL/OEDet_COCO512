@@ -1,6 +1,5 @@
 # OEDet_COCO512
 Single-Shot Detector with Objectness Enhancement
-
 ![image](https://github.com/BarryKCL/OEDet_COCO512/blob/master/figures/OEDet_A.png)
 
 ![image](https://github.com/BarryKCL/OEDet_COCO512/blob/master/figures/OEDet_B.png)
@@ -101,8 +100,6 @@ python train.py --config-file configs/vgg_ssd512_coco_trainval35k.yaml
 
 ## Evaluate
 [OEDet512_pre-trained model](https://pan.baidu.com/s/1J5W8kABCfJ-jRnOsRw1gEQ)
-
-Extraction code:iif1
 
 ### Single GPU evaluating
 
